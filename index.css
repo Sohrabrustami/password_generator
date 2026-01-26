@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+#h11 {
+    color: azure;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(27, 177, 27);
+}
+
+h2 {
+    color: antiquewhite;
+}
+
+#gp_btn {
+    padding: 10px;
+    color: antiquewhite;
+    background: rgb(27, 177, 27);
+    border-radius: 10px;
+    border: solid  rgb(27, 177, 27) 0.1;
+
+}
+
+#gn_btn,#gn2_btn {
+    padding: 10px;
+    color: antiquewhite;
+    background: rgb(27, 177, 27);
+    border-radius: 10px;
+    border: solid  rgb(27, 177, 27) 0.1;
+
+}
+
+h3 {
+    color: aqua;
+    font-size: large;
+}
