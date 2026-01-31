@@ -60,6 +60,25 @@ function generatePass2(){
     
 }
 
+function copyPassword() {
+const passwordEl = document.getElementById("gn_btn");
+    const text = passwordEl.innerText.trim(); 
+
+    if (text === "") {
+        alert("Nothing to copy");
+        return;
+    }
+
+    navigator.clipboard.writeText(text)
+        .then(() => {
+            alert("Copied!");
+        })
+        .catch(() => {
+            alert("Copy failed");
+        });
+
+}
+
 
 
 
