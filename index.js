@@ -24,6 +24,11 @@ let generated_password = document.getElementById("gn_btn")
 
 let generated_password2 = document.getElementById("gn2_btn")
 
+let pass_length = document.getElementById("field")
+
+var pass_length2 = Number(pass_length.value)
+
+
 
 
 function getRandomNum(){
@@ -33,11 +38,10 @@ function getRandomNum(){
 
 }
 
-
-
 function generatePass(){
     let list= ''
-    for(let i=0;i<8;i++){
+    let pass_length2 = Number(pass_length.value)
+    for(let i=0;i<pass_length2;i++){
         list+=getRandomNum()
     }
     generated_password.innerText = list
@@ -48,7 +52,8 @@ function generatePass(){
 
 function generatePass2(){
     let list2= ''
-    for(let i=0;i<8;i++){
+    let pass_length2 = Number(pass_length.value)
+    for(let i=0;i<pass_length2;i++){
         list2+=getRandomNum()
     }
     generated_password2.innerText = list2

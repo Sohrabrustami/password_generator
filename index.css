@@ -37,3 +37,17 @@ h3 {
     color: aqua;
     font-size: large;
 }
+
+.numberField {
+    color: azure;
+    width: 50px;
+    border-radius: 10px;
+}
+#field {
+    color: black;
+    align-content: center;
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 15px;
+    
+}
